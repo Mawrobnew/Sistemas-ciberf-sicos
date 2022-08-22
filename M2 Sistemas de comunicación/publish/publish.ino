@@ -18,9 +18,9 @@ const char *UBIDOTS_TOKEN = "BBFF-FnYXOGW2q25Zd5YsRHsbpyBIi1Scig";  // Put here 
 const char *WIFI_SSID = "Tec-IoT";      // Put here your Wi-Fi SSID
 const char *WIFI_PASS = "spotless.magnetic.bridge";      // Put here your Wi-Fi password
 const char *DEVICE_LABEL = "guayabitos_nodemcu";   // Put here your Device label to which data  will be published
-const char *VARIABLE_LABEL = "Potter"; // Put here your Variable label to which data  will be published
+const char *VARIABLE_LABEL = "Potter"; // Put here your Variable label to which data  will be published (Dato, esto refiere a en dónde se visualiza (grafica))
 const char *SUBSCRIBE_DEVICE_LABEL = "guayabitos_nodemcu";   // Replace with the device label to subscribe to
-const char *SUBSCRIBE_VARIABLE_LABEL = "led_control"; // Replace with the variable label to subscribe to
+const char *SUBSCRIBE_VARIABLE_LABEL = "led_control"; // Replace with the variable label to subscribe to  (Variable que se hizo)
 
 const int PUBLISH_FREQUENCY = 5000; // Update rate in millisecondsx
 
